@@ -3,90 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Econs Quiz Portal</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logo1.jpg" type="image/x-icon">
-
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <title>Hello world
+        
+    </title>
 </head>
 <body>
-    <div class="glass-container">
-        
-        <header>
-            <div class="logo-placeholder">
-                <img src="logo.jpg" alt="Accra Technical University Logo" id="logo">
-            </div>
-            <div class="titles">
-                <h1>Quiz Craft</h1>
-                <h2>Applied Informatics - Economics Quiz</h2>
-            </div>
-        </header>
-
-        <section id="login-view" class="view active">
-            <h3>Student Authentication</h3>
-            <div class="form-group">
-                <label for="fullName">Full Name</label>
-                <input type="text" id="fullName" placeholder="Enter your full name" required>
-            </div>
-            <div class="form-group">
-                <label for="indexNumber">Index Number (9 Characters)</label>
-                <input type="text" id="indexNumber" placeholder="e.g. 01234567A" maxlength="9" required>
-                <small id="indexError" class="error-text"></small>
-            </div>
-            <button id="proceedToVerifyBtn" class="primary-btn">Proceed to Verification</button>
-        </section>
-
-        <section id="camera-view" class="view hidden">
-            <h3><div id="faceid">Facial Verification</div></h3>
-            <p>Please position your face clearly in the frame to capture your attendance.</p>
-            <div class="camera-container">
-                <video id="videoElement" autoplay playsinline></video>
-                <canvas id="canvasElement" class="hidden"></canvas>
-            </div>
-            <button id="captureBtn" class="primary-btn">Capture & Verify</button>
-            <p id="verificationStatus" class="status-text"></p>
-        </section>
-
-       <section id="quiz-view" class="view hidden">
-    <div class="quiz-header">
-        <div class="quiz-info-main">
-            <div class="timer" id="timerDisplay">20:00</div>
-            <div class="progress-wrapper">
-                <div class="progress-container">
-                    <div class="progress-bar" id="progressBar"></div>
-                </div>
-                <div class="progress-text" id="progressText">0 / 20 Answered</div>
-            </div>
-        </div>
-
-        <div id="ai-invigilator-container">
-            <div class="invigilator-header">
-                <span class="red-dot"></span> AI INVIGILATOR
-            </div>
-            <video id="invigilatorVideo" autoplay playsinline muted></video>
-        </div>
-    </div>
     
-    <div id="questionsContainer"></div>
-    
-    <button id="submitQuizBtn" class="primary-btn submit-btn">Submit Quiz</button>
-</section>
-
-        <section id="result-view" class="view hidden">
-            <div id="loadingScore">
-                <div class="spinner"></div>
-                <h3>Calculating your score...</h3>
-            </div>
-            <div id="finalScoreDisplay" class="hidden">
-                <h1 class="congrats-text">Wishing You a happy</h1>
-                <h1 class="congrats-text">😂April Fool 😂</h1>
-                
-                <h2 id="scoreText">You scored: <span id="scoreValue"></span> / 20</h2>
-            </div>
-        </section>
-
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
